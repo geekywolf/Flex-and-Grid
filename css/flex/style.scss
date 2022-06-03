@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+$Bright-orange: hsl(31, 77%, 52%);
+$Dark-cyan: hsl(184, 100%, 22%);
+$Very-dark-cyan: hsl(179, 100%, 13%);
+$Transparent-white: hsla(0, 0%, 100%, 0.75);
+$Very-light-gray: hsl(0, 0%, 95%);
+
+body{
+    margin: 0;
+    background-color: $Very-light-gray;
+}
+
+.main{
+    display: flex;
+    margin: 5.5em 12em;
+    section{
+        div{
+            padding: 2em;
+            h1{ color: $Very-light-gray; font-family: "Big Shoulders Display"; font-size: 2em};
+            p{ color: $Transparent-white; font-family: "Lexend Deca"};
+        }
+        a{
+            text-decoration: none;
+            .container{
+                margin-top: 5em;
+                height: 1px;
+                width: 7em;
+                background-color: $Very-light-gray;
+                border-radius: 2em;
+                p{
+                    font-size: 1.1em;
+                    text-align: center;
+                    color: $Bright-orange;
+                    margin-top: -0.5em;
+                }
+            }
+            :hover{
+                background-color: transparent;
+                border: 2px solid $Very-light-gray;
+                p{border:none; color: $Very-light-gray;}
+
+            }
+        }
+    }
+
+    .sedans{
+        background-color: $Bright-orange;
+
+        .container{
+            a{
+                .container{
+                    p{color: $Bright-orange;}
+                }
+                :hover{p{border:none; color: $Very-light-gray;}}
+                
+            }
+        }
+    }
+    .suv{
+        background-color: $Dark-cyan;
+        .container{
+            a{
+                .container{
+                    p{color: $Dark-cyan;}
+                }
+                :hover{p{border:none; color: $Very-light-gray;}}
+                
+            }
+        }
+    }
+    .luxury{
+        background-color: $Very-dark-cyan;
+        .container{
+            a{
+                .container{
+                    p{color: $Very-dark-cyan;}
+                }
+                :hover{p{border:none; color: $Very-light-gray;}}
+                
+            }
+        }
+
+    }
+}

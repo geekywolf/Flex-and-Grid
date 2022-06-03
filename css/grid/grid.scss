@@ -1,0 +1,36 @@
+body{
+    margin: 1em;
+    background-color: black;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 5px;
+
+    .red{
+        grid-column: span 3;
+        background-color: red;
+    }
+    .orange{
+        background-color: orange;
+    }
+    .green{
+        grid-column: span 2;
+        background-color: green;
+    }
+    .row{   
+        display: grid;
+        grid-column: span 2;
+        grid-gap: 5px;
+        .blue{
+            background-color: blue;
+        }
+        .blue2{
+            background-color: blue;
+        }
+    }
+}

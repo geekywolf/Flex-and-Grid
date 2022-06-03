@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5.5em 12em;
+}
+
+.main section div {
+  padding: 2em;
+}
+
+.main section div h1 {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display";
+  font-size: 2em;
+}
+
+.main section div p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca";
+}
+
+.main section a {
+  text-decoration: none;
+}
+
+.main section a .container {
+  margin-top: 5em;
+  height: 1px;
+  width: 7em;
+  background-color: #f2f2f2;
+  border-radius: 2em;
+}
+
+.main section a .container p {
+  font-size: 1.1em;
+  text-align: center;
+  color: #e38826;
+  margin-top: -0.5em;
+}
+
+.main section a :hover {
+  background-color: transparent;
+  border: 2px solid #f2f2f2;
+}
+
+.main section a :hover p {
+  border: none;
+  color: #f2f2f2;
+}
+
+.main .sedans {
+  background-color: #e38826;
+}
+
+.main .sedans .container a .container p {
+  color: #e38826;
+}
+
+.main .sedans .container a :hover p {
+  border: none;
+  color: #f2f2f2;
+}
+
+.main .suv {
+  background-color: #006970;
+}
+
+.main .suv .container a .container p {
+  color: #006970;
+}
+
+.main .suv .container a :hover p {
+  border: none;
+  color: #f2f2f2;
+}
+
+.main .luxury {
+  background-color: #004241;
+}
+
+.main .luxury .container a .container p {
+  color: #004241;
+}
+
+.main .luxury .container a :hover p {
+  border: none;
+  color: #f2f2f2;
+}
+/*# sourceMappingURL=style.css.map */
